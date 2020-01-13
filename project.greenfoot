@@ -60,17 +60,10 @@ dependency9.to=Mario
 dependency9.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
-<<<<<<< HEAD
-editor.fx.0.x=567
-editor.fx.0.y=15
+editor.fx.0.x=492
+editor.fx.0.y=30
 height=744
 package.numDependencies=16
-=======
-editor.fx.0.x=278
-editor.fx.0.y=180
-height=785
-package.numDependencies=12
->>>>>>> 746dafc28c7ad10575f88556e49d243bac1e191b
 package.numTargets=11
 project.charset=UTF-8
 publish.hasSource=false
@@ -172,12 +165,7 @@ target9.width=80
 target9.x=70
 target9.y=70
 version=3.0.0
-<<<<<<< HEAD
 width=1382
-world.lastInstantiated=Background2
-=======
-width=1300
 world.lastInstantiated=BackGround1
->>>>>>> 746dafc28c7ad10575f88556e49d243bac1e191b
 xPosition=0
 yPosition=0
