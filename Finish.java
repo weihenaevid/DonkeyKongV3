@@ -23,6 +23,6 @@ public class Finish extends World
         addObject(new Floor2(), 875, 580);
         addObject(new Floor2(), 1125, 580);
         addObject(new Floor2(), 1375, 580);
-        showText("YOU WIN", 600, 300);
+        showText("YOU WIN", 550, 300);
     }
 }
