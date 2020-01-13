@@ -36,7 +36,7 @@ public class BackGround1 extends World
         addObject(new Floor2(), 1125, 1000);
         addObject(new Floor2(), 1375, 1000);
         
-        addObject(new Mario(), 125, 940);
+        addObject(new Mario(), 1050, 940);
         
         GreenfootImage lives = new GreenfootImage("heart.png");
         lives.scale(30,30);
