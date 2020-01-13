@@ -39,6 +39,7 @@ public class BackGround1 extends World
         addObject(new Mario(), 1050, 940);
         
         GreenfootImage lives = new GreenfootImage("heart.png");
+        GreenfootImage explostion = new GreenfootImage("explosion.png");
         lives.scale(30,30);
         getBackground().drawImage(lives, 1045,13);
         
