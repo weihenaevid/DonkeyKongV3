@@ -58,11 +58,19 @@ dependency8.type=UsesDependency
 dependency9.from=Background2
 dependency9.to=Mario
 dependency9.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
 height=785
+=======
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=492
+editor.fx.0.y=30
+height=744
+>>>>>>> 8e079f874b5085a9dd84e36981c62abba31fd62e
 package.numDependencies=16
 package.numTargets=11
 project.charset=UTF-8
@@ -165,7 +173,11 @@ target9.width=80
 target9.x=70
 target9.y=70
 version=3.0.0
+<<<<<<< HEAD
 width=1368
+=======
+width=1382
+>>>>>>> 8e079f874b5085a9dd84e36981c62abba31fd62e
 world.lastInstantiated=BackGround1
 xPosition=0
 yPosition=0
