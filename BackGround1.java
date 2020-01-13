@@ -41,8 +41,6 @@ public class BackGround1 extends World
         GreenfootImage lives = new GreenfootImage("heart.png");
         lives.scale(30,30);
         getBackground().drawImage(lives, 1045,13);
-        
-        
    
     }
 }
