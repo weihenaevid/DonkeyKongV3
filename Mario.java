@@ -32,7 +32,7 @@ public class Mario extends Actor
                 setLocation(getX(), getY() - 1);
                 if(Greenfoot.isKeyDown("up"))
                 {
-                    speed = - 27;
+                    speed = - 20;
                 }
             }
         }
@@ -46,7 +46,7 @@ public class Mario extends Actor
         }    
         if(Greenfoot.isKeyDown("left"))
         {
-            move(-5);
+            move(-3);
             /*if(System.currentTimeMillis() - lastTime > 500 && Marioimage.equals("mariopixelCopy.png"))
             {
                 Marioimage = "marioleft.png";
@@ -70,7 +70,7 @@ public class Mario extends Actor
         } else {
             if(Greenfoot.isKeyDown("right"))
             {
-               move(5);
+               move(3);
                setImage("mariopixel.png");
                 while(isTouching(Floor.class))
                 {
@@ -82,7 +82,7 @@ public class Mario extends Actor
         }
         if(Greenfoot.isKeyDown("down"))
         {
-            speed = 50;
+            speed = 10;
         }
     } 
 }

@@ -23,9 +23,10 @@ public class Background2 extends World
         addObject(new Floor(), 125, 139);
         addObject(new Floor(), 375, 139);
         addObject(new Floor(), 625, 139);
-        //addObject(new Floor(), 875, 139);
-        
-        addObject(new Floor2(), 975, 300);
+                
+        addObject(new Floor2(), 975, 250);
+        addObject(new Platform1(), 700,350);
+        addObject(new Platform1(), 375,450);
         
         //bottom floor
         addObject(new Floor2(), 125, 1000);
@@ -35,7 +36,7 @@ public class Background2 extends World
         addObject(new Floor2(), 1125, 1000);
         addObject(new Floor2(), 1375, 1000);
         
-        addObject(new Mario(), 125, 940);
+        addObject(new Mario(), 1050, 940);
         
         GreenfootImage lives = new GreenfootImage("heart.png");
         lives.scale(30,30);
