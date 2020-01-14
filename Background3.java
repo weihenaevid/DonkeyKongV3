@@ -17,8 +17,19 @@ public class Background3 extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1100, 600, 1);
-        addObject(new DK(), 180, 69);
-        addObject(new Floor3(), 125, 139);
-        addObject(new Floor3(), 375, 139);
+        addObject(new DK(), 80, 250);
+        addObject(new Floor(), 125, 139);
+        addObject(new Floor(), 375, 139);
+        addObject(new Floor(), 625, 139);
+        addObject(new Mario(), 50, 90);
+        
+        addObject(new Floor2(), 200, 450);
+        addObject(new Floor2(), 80,300);
+        addObject(new Floor2(), 550,600);
+        //addObject(new DK(), 180, 69);
+        addObject(new Floor3(), 800, 139);
+        addObject(new Floor3(), 1000, 300);
+        addObject(new Ladder(), 100, 355);
+        
     }
 }
