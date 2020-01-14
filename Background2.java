@@ -25,7 +25,7 @@ public class Background2 extends World
         addObject(new Floor(), 625, 139);
         //addObject(new Floor(), 875, 139);
         
-        addObject(new Floor2(), 975, 400);
+        addObject(new Floor2(), 975, 300);
         
         //bottom floor
         addObject(new Floor2(), 125, 1000);
