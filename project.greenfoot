@@ -34,6 +34,7 @@ dependency14.type=UsesDependency
 dependency15.from=Background2
 dependency15.to=Platform1
 dependency15.type=UsesDependency
+<<<<<<< HEAD
 dependency16.from=Background2
 dependency16.to=Mario
 dependency16.type=UsesDependency
@@ -45,10 +46,24 @@ dependency18.to=Barrel
 dependency18.type=UsesDependency
 dependency19.from=DK
 dependency19.to=Mario
+=======
+dependency16.from=Barrel
+dependency16.to=Platform1
+dependency16.type=UsesDependency
+dependency17.from=Barrel
+dependency17.to=Floor3
+dependency17.type=UsesDependency
+dependency18.from=Barrel
+dependency18.to=Floor2
+dependency18.type=UsesDependency
+dependency19.from=Barrel
+dependency19.to=Floor
+>>>>>>> f956ad75842c89d1868ff5de46eb0186f1456837
 dependency19.type=UsesDependency
 dependency2.from=BackGround1
 dependency2.to=Floor
 dependency2.type=UsesDependency
+<<<<<<< HEAD
 dependency20.from=Barrel
 dependency20.to=Floor2
 dependency20.type=UsesDependency
@@ -61,6 +76,14 @@ dependency22.type=UsesDependency
 dependency23.from=Mario
 dependency23.to=Floor
 dependency23.type=UsesDependency
+=======
+dependency20.from=Mario
+dependency20.to=Barrel
+dependency20.type=UsesDependency
+dependency21.from=Mario
+dependency21.to=Floor
+dependency21.type=UsesDependency
+>>>>>>> f956ad75842c89d1868ff5de46eb0186f1456837
 dependency3.from=BackGround1
 dependency3.to=Floor2
 dependency3.type=UsesDependency
@@ -84,11 +107,19 @@ dependency9.to=Floor2
 dependency9.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
+<<<<<<< HEAD
 editor.fx.0.x=189
 editor.fx.0.y=66
 height=744
 package.numDependencies=23
 package.numTargets=14
+=======
+editor.fx.0.x=232
+editor.fx.0.y=82
+height=1000
+package.numDependencies=21
+package.numTargets=13
+>>>>>>> f956ad75842c89d1868ff5de46eb0186f1456837
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -210,7 +241,14 @@ target9.width=80
 target9.x=190
 target9.y=130
 version=3.0.0
+<<<<<<< HEAD
 width=1382
 world.lastInstantiated=Background3
 xPosition=0
 yPosition=0
+=======
+width=1296
+world.lastInstantiated=Background2
+xPosition=-8
+yPosition=-8
+>>>>>>> f956ad75842c89d1868ff5de46eb0186f1456837
