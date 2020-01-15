@@ -18,6 +18,7 @@ public class Background3 extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1100, 600, 1);
         addObject(new DK(), 80, 250);
+        addObject(new Peach(), 150, 255);
         addObject(new Floor(), 125, 139);
         addObject(new Floor(), 375, 139);
         addObject(new Floor(), 625, 139);
