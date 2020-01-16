@@ -37,6 +37,7 @@ public class BackGround1 extends World
         addObject(new Floor2(), 1375, 1000);
         
         addObject(new Mario(), 1050, 940);
+        addObject(new Coin(), 500,900);
         
         GreenfootImage lives = new GreenfootImage("heart.png");
         GreenfootImage explostion = new GreenfootImage("explosion.png");
