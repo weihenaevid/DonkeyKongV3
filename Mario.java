@@ -12,8 +12,7 @@ public class Mario extends Actor
         setLocation( getX(), getY() + speed);
         getWorld().showText(Lives +"",1080, 27);
         getWorld().showText("Level: " + Level,1000,27);
-        getWorld().showText("Level " + Level,1000,27);
-
+     
         if(isTouching(Barrel.class))
         {
             removeTouching(Barrel.class);

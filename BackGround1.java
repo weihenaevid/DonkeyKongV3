@@ -17,12 +17,12 @@ public class BackGround1 extends World
     {    
         super(1100, 600, 1); 
 
-        //top right floor
-        addObject(new DK(), 180, 69);
-        addObject(new Floor(), 125, 139);
-        addObject(new Floor(), 375, 139);
-        addObject(new Floor(), 625, 139);
-        addObject(new Floor(), 875, 139);
+        //top left floor
+        addObject(new DK(), 180, 89);
+        addObject(new Floor(), 125, 159);
+        addObject(new Floor(), 375, 159);
+        addObject(new Floor(), 625, 159);
+        addObject(new Floor(), 875, 159);
         //middle left floor
         addObject(new Floor2(), 725, 400);
         addObject(new Floor2(), 975, 400);
@@ -37,6 +37,7 @@ public class BackGround1 extends World
         addObject(new Floor2(), 1375, 1000);
         
         addObject(new Mario(), 1050, 940);
+        addObject(new Coin(), 500,900);
         
         GreenfootImage lives = new GreenfootImage("heart.png");
         GreenfootImage explostion = new GreenfootImage("explosion.png");

@@ -2,6 +2,7 @@ import greenfoot.*;
 public class DK extends Actor
 {
     long lastTime;
+    public World world;
     public void act() 
     {
         if(isTouching(Mario.class))
