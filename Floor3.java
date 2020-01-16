@@ -19,10 +19,6 @@ public class Floor3 extends Floor2
      */
     public void act() 
     {
-        // Add your action code here.
-        while(isTouching(Floor3.class))
-          {
-            setLocation(getX() + 3, getY());
-          }
+        
     }    
 }

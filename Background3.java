@@ -23,6 +23,7 @@ public class Background3 extends World
         addObject(new Floor(), 375, 139);
         addObject(new Floor(), 625, 139);
         addObject(new Mario(), 50, 90);
+        addObject(new Portal(), 800, 300);
         
         addObject(new Floor2(), 200, 450);
         addObject(new Floor2(), 80,300);
