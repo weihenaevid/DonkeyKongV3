@@ -5,14 +5,13 @@ public class Mario extends Actor
     String Marioimage = "mariopixelCopy.png";
     long lastTime;
     int Lives = 3;
-    int Level = 1;
+   
     public void act() 
     {
         speed = speed + 1;
         setLocation( getX(), getY() + speed);
         getWorld().showText(Lives +"",1080, 27);
-        getWorld().showText("Level: " + Level,1000,27);
-     
+             
         if(isTouching(Barrel.class))
         {
             removeTouching(Barrel.class);
@@ -45,7 +44,7 @@ public class Mario extends Actor
         }    
         if(Greenfoot.isKeyDown("left"))
         {
-            move(-3);
+            move(-5);
             /*if(System.currentTimeMillis() - lastTime > 500 && Marioimage.equals("mariopixelCopy.png"))
             {
                 Marioimage = "marioleft.png";
@@ -69,7 +68,7 @@ public class Mario extends Actor
         } else {
             if(Greenfoot.isKeyDown("right"))
             {
-               move(3);
+               move(5);
                setImage("mariopixel.png");
                 while(isTouching(Floor.class))
                 {
