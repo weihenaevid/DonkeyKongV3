@@ -12,6 +12,10 @@ public class Mario extends Actor
         setLocation( getX(), getY() + speed);
         getWorld().showText(Lives +"",1080, 27);
              
+        if(isTouching(Portal.class))
+        {
+            setLocation(getX(), getWorld().getHeight()+40);//supposed to change positions for the portal
+        }
         if(isTouching(Barrel.class))
         {
             removeTouching(Barrel.class);
