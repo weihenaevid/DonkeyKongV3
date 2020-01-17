@@ -18,11 +18,11 @@ public class BackGround1 extends World
         super(1100, 600, 1); 
 
         //top left floor
-        addObject(new DK(), 180, 89);
-        addObject(new Floor(), 125, 159);
-        addObject(new Floor(), 375, 159);
-        addObject(new Floor(), 625, 159);
-        addObject(new Floor(), 875, 159);
+        addObject(new DK(), 180, 100);
+        addObject(new Floor(), 125, 169);
+        addObject(new Floor(), 375, 169);
+        addObject(new Floor(), 625, 169);
+        addObject(new Floor(), 875, 169);
         //middle left floor
         addObject(new Floor2(), 725, 400);
         addObject(new Floor2(), 975, 400);
