@@ -19,6 +19,8 @@ public class Floor3 extends Floor2
      */
     public void act() 
     {
+        move(4);
+      
+    }
         
-    }    
 }
