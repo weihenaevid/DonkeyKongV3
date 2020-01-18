@@ -24,14 +24,14 @@ public class Coin extends Actor
     public void act() 
     {
        level = 1;
-       if(isTouching(Mario.class)!= null)
+       if(getOneIntersectingObject(Mario.class)!=null)
         {
-            getWorld().removeObject(getOneIntersectingObject(Mario.class));
+            //getWorld().removeObject(getOneIntersectingObject(Mario.class));
             getWorld().removeObject(this);
             //Greenfoot.setWorld(new Finish());
             score += 1;
             
-                  }
+       }
        
        if( score == 1 && isTouching(DK.class)){
         Greenfoot.setWorld(new Background2());
