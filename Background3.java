@@ -33,5 +33,6 @@ public class Background3 extends World
         addObject(new Floor3(), 1000, 300);
         addObject(new Ladder(), 100, 355);
         
+        showText("Level: 3", 880, 27); 
     }
 }
