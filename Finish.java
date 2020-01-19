@@ -17,12 +17,6 @@ public class Finish extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1100, 600, 1); 
-        addObject(new Floor2(), 125, 580);
-        addObject(new Floor2(), 375, 580);
-        addObject(new Floor2(), 625, 580);
-        addObject(new Floor2(), 875, 580);
-        addObject(new Floor2(), 1125, 580);
-        addObject(new Floor2(), 1375, 580);
         showText("YOU WIN!", 550, 300);
     }
 }

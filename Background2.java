@@ -19,10 +19,11 @@ public class Background2 extends World
         super(1100, 600, 1); 
         
         //top right floor
-        addObject(new DK(), 180, 69);
+       
         addObject(new Floor(), 125, 139);
         addObject(new Floor(), 375, 139);
         addObject(new Floor(), 625, 139);
+        addObject(new DonkeyKong(), 180, 80);
                 
         addObject(new Floor2(), 975, 250);
         addObject(new Platform1(), 700,350);

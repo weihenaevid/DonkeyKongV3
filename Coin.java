@@ -33,12 +33,12 @@ public class Coin extends Actor
             
                   }
        
-       if( score == 1 && isTouching(DK.class)){
+       if( score == 1 && isTouching(DonkeyKong.class)){
         Greenfoot.setWorld(new Background2());
         level = 2;
         score = 0;
         }
-       if (score == 3&& isTouching (DK.class)){
+       if (score == 3&& isTouching (DonkeyKong.class)){
          Greenfoot.setWorld(new Background3());
          level = 3;
         }
