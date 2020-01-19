@@ -36,5 +36,6 @@ public class Background3 extends World
         addObject(new Ladder(), 100, 355);
         addObject(new DonkeyKong(), 150, 250);
         
+        showText("Level: 3", 880, 27); 
     }
 }

@@ -43,6 +43,9 @@ public class Background2 extends World
         lives.scale(30,30);
         getBackground().drawImage(lives, 1045,13);
         
-       
+        addObject(new coins(), 400,500);
+        addObject(new coins(), 1000,100);
+        showText("Level: 2", 880, 27); 
+        
     }
 }

@@ -5,10 +5,30 @@ public class Mario extends Actor
     String Marioimage = "mariopixelCopy.png";
     long lastTime;
     int Lives = 3;
-   
+    //int level = 0;
+    int score = 0;
+    
+    public void score ()
+    {
+       if( score == 1 && isTouching(DK.class)){
+        Greenfoot.setWorld(new Background2());
+        //level = 2;
+        score = 0;
+        }
+       if (score == 3 && isTouching (DK.class)){
+         Greenfoot.setWorld(new Background3());
+         //level = 3;
+        }
+       getWorld().showText("Score:" + score,980, 27);
+       
+    }
     public void act() 
     {
-        speed = speed + 1;
+        
+        //level = 1;
+        
+        score();
+        speed= speed + 1;
         setLocation( getX(), getY() + speed);
         getWorld().showText(Lives +"",1080, 27);
              
@@ -21,10 +41,17 @@ public class Mario extends Actor
             removeTouching(Barrel.class);
             Lives = Lives - 1;
         }
+        if(isTouching(coins.class))
+        {
+            removeTouching(coins.class);
+            score = score +1;
+            
+        }
         if(Lives == 0)
         {
-            getWorld().showText("GAME OVER", 550, 300);
-            Greenfoot.stop();
+            Greenfoot.setWorld(new Finish());
+            //getWorld().showText("GAME OVER", 550, 300);
+            //Greenfoot.stop();
         }
         if(speed > 0)
         {
@@ -86,5 +113,7 @@ public class Mario extends Actor
         {
             speed = 10;
         }
-    } 
+        
+    
+}
 }
