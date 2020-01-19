@@ -19,8 +19,22 @@ public class Floor3 extends Floor2
      */
     public void act() 
     {
+        turn(90);
         move(4);
-      
+        turn(-90);
+        move(4);
+        
+    }   
+
+    public boolean atWorldEdge()
+    {
+        if(getX() < 10 || getX() > getWorld().getWidth() - 10)
+            return true;
+        if(getY() < 10 || getY() > getWorld().getHeight() - 10)
+            return true;
+        else
+            return false;
+   
     }
         
 }

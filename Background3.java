@@ -23,18 +23,19 @@ public class Background3 extends World
         addObject(new Floor(), 125, 139);
         addObject(new Floor(), 375, 139);
         addObject(new Floor(), 625, 139);
+        addObject(new Floor(), 875, 139);
         
-        addObject(new Portal(), 800, 300);
-        addObject(new Mario(), 50, 90);
-        
+        addObject(new Portal(), 900, 300);
+      
         addObject(new Floor2(), 200, 450);
         addObject(new Floor2(), 80,300);
         addObject(new Floor2(), 550,600);
-        //addObject(new DK(), 180, 69);
-        addObject(new Floor3(), 800, 139);
-        addObject(new Floor3(), 1000, 300);
-        addObject(new Ladder(), 100, 355);
+        
+        addObject(new Floor3(), 1050, 139);
+        addObject(new Ladder(), 230, 355);
         addObject(new DonkeyKong(), 150, 250);
+        addObject(new coins(), 400,500);
+        addObject(new Mario(), 50, 90);
         
         showText("Level: 3", 880, 27); 
     }
