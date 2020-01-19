@@ -24,7 +24,7 @@ public class Coin extends Actor
     public void act() 
     {
        level = 1;
-       if(isTouching(Mario.class)!= null)
+       /*if(isTouching(Mario.class)!= null)
         {
             getWorld().removeObject(getOneIntersectingObject(Mario.class));
             getWorld().removeObject(this);
@@ -32,7 +32,8 @@ public class Coin extends Actor
             score += 1;
             
                   }
-       
+                  */
+                  
        if( score == 1 && isTouching(DonkeyKong.class)){
         Greenfoot.setWorld(new Background2());
         level = 2;

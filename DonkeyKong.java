@@ -11,12 +11,14 @@ public class DonkeyKong extends Actor
     }
     public void act() 
     {
+        
         if(isTouching(Mario.class))
         {
-            Greenfoot.setWorld(new Finish());
+            Greenfoot.setWorld(new Background2());
 
-            Greenfoot.stop();
+            //Greenfoot.stop();
         }
+        
         if(System.currentTimeMillis() - lastTime > 2500)
         {
             lastTime = System.currentTimeMillis();
