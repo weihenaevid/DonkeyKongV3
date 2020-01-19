@@ -27,14 +27,14 @@ public class Background3 extends World
         
         addObject(new Portal(), 900, 300);
       
-        addObject(new Floor2(), 200, 450);
-        addObject(new Floor2(), 80,300);
-        addObject(new Floor2(), 550,600);
+        addObject(new Floor(), 200, 450);
+        addObject(new Floor(), 80,300);
+        addObject(new Floor(), 550,600);
         
         addObject(new Floor3(), 1050, 139);
         addObject(new Ladder(), 230, 355);
         addObject(new DonkeyKong(), 150, 250);
-        addObject(new coins(), 400,500);
+        addObject(new coins(), 100,360);
         addObject(new Mario(), 50, 90);
         
         showText("Level: 3", 880, 27); 
