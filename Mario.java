@@ -79,7 +79,7 @@ public class Mario extends Actor
                 setLocation(getX(), getY() - 1);
                 if(Greenfoot.isKeyDown("up"))
                 {
-                    speed = - 22;
+                    speed = - 21;
                 }
             }
         }
