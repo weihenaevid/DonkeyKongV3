@@ -19,11 +19,11 @@ public class BackGround1 extends World
 
         //top left floor
        
-        addObject(new Floor(), 125, 189);
-        addObject(new Floor(), 375, 189);
-        addObject(new Floor(), 625, 189);
-        addObject(new Floor(), 875, 189);
-        addObject(new DonkeyKong(), 150, 120);
+        addObject(new Floor(), 125, 195);
+        addObject(new Floor(), 375, 195);
+        addObject(new Floor(), 625, 195);
+        addObject(new Floor(), 875, 195);
+        addObject(new DonkeyKong(), 150, 140);
         //middle left floor
         addObject(new Floor2(), 725, 400);
         addObject(new Floor2(), 975, 400);
