@@ -48,22 +48,22 @@ public class Mario extends Actor
         {
             setLocation(500, 550);//supposed to change positions for the portal
         }
-        if(isTouching(Barrel.class))
+        if(isTouching(Barrel.class))//if touching a barrel
         {
-            removeTouching(Barrel.class);
-            Lives = Lives - 1;
+            removeTouching(Barrel.class);//remove the barrel
+            Lives = Lives - 1;//subtract a life
         }
-        if(isTouching(coins.class))
+        if(isTouching(coins.class))//if touching coins
         {
-            removeTouching(coins.class);
-            score = score +1;
+            removeTouching(coins.class);//remove the coin
+            score = score +1;//add to the score
             
         }
         if (isTouching(Black.class))//if mario touches the bottom black part he dies
            {
                //getWorld().removeObject(this);
-               getWorld().showText("GAME OVER", 550, 300);
-               Greenfoot.stop();
+               getWorld().showText("GAME OVER", 550, 300);//if mario dies, tell the user
+               Greenfoot.stop();//stop the program from running
               // return;
            }
         if(Lives == 0)
