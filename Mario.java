@@ -16,7 +16,7 @@ public class Mario extends Actor
     
     public void score ()
     {
-       /*if( score == 1 && isTouching(DK.class)){
+       if( score == 1 && isTouching(DK.class)){//in level 
         Greenfoot.setWorld(new Background2());
         //level = 2;
         score = 0;
@@ -25,7 +25,6 @@ public class Mario extends Actor
          Greenfoot.setWorld(new Background3());
          //level = 3;
         }
-        */
        getWorld().showText("Score:" + score,980, 27);
        
     }

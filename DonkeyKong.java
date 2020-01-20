@@ -14,7 +14,7 @@ public class DonkeyKong extends Actor
         
         if(isTouching(Mario.class))
         {
-            Greenfoot.setWorld(new Background2());
+            //Greenfoot.setWorld(new Background2());
 
             //Greenfoot.stop();
         }
