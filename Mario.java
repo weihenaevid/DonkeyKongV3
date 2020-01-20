@@ -46,7 +46,7 @@ public class Mario extends Actor
         }
         if(isTouching(Portal.class))
         {
-            setLocation(500, 600);//supposed to change positions for the portal
+            setLocation(500, 550);//supposed to change positions for the portal
         }
         if(isTouching(Barrel.class))
         {
@@ -59,6 +59,13 @@ public class Mario extends Actor
             score = score +1;
             
         }
+        if (isAtEdge())
+           {
+               //getWorld().removeObject(this);
+               getWorld().showText("GAME OVER", 550, 300);
+               Greenfoot.stop();
+              // return;
+           }
         if(Lives == 0)
         {
             //Greenfoot.setWorld(new Finish());

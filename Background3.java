@@ -29,7 +29,7 @@ public class Background3 extends World
       
         addObject(new Floor(), 200, 450);//the other 3 floors
         addObject(new Floor(), 80,300);
-        addObject(new Floor(), 500,600);
+        addObject(new Floor(), 500,550);
         
         addObject(new Floor3(), 1050, 139);//plank that moves up and down
      //   addObject(new Plank_up(), 1050, 300);
