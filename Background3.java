@@ -37,6 +37,10 @@ public class Background3 extends World
         addObject(new coins(), 100,360);
         addObject(new Mario(), 50, 90);
         
+        
+        GreenfootImage lives = new GreenfootImage("heart.png");
+        lives.scale(30,30);
+        getBackground().drawImage(lives, 1045,13);
         showText("Level: 3", 880, 27); 
     }
 }
