@@ -18,18 +18,19 @@ public class Background3 extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1100, 600, 1);
         
-        addObject(new Peach(), 65, 255);
-        addObject(new Help(), 110, 185);
-        addObject(new Floor(), 125, 139);
-        addObject(new Floor(), 375, 139);
-        addObject(new Floor(), 625, 139);
+        addObject(new Black(), 700, 600);//black floor
+        addObject(new Peach(), 65, 255);//peach
+        addObject(new Help(), 110, 185);//help
+        addObject(new Floor(), 125, 139);//top floor
+        addObject(new Floor(), 375, 139);//top floor
+        addObject(new Floor(), 625, 139);//top floor
         addObject(new Floor(), 875, 139);//top floor
         
         addObject(new Portal(), 900, 300);//portal
       
-        addObject(new Floor(), 200, 450);//the other 3 floors
-        addObject(new Floor(), 80,300);
-        addObject(new Floor(), 500,550);
+        addObject(new Floor(), 200, 450);//the third floor
+        addObject(new Floor(), 80,300);//second floor
+        addObject(new Floor(), 500,550);//fourth floor
         
         addObject(new Floor3(), 1050, 139);//plank that moves up and down
      //   addObject(new Plank_up(), 1050, 300);

@@ -39,12 +39,12 @@ public class Mario extends Actor
         setLocation( getX(), getY() + speed);
         getWorld().showText(Lives +"",1080, 27);
              
-        if(isTouching(Ladder.class) && Greenfoot.isKeyDown("c"))
+        if(isTouching(Ladder.class) && Greenfoot.isKeyDown("c"))//if u touch the ladder and press c
         {
-            //setImage("mariopixelCopy.png");
+            //supposed to have something where it goes up
             
         }
-        if(isTouching(Portal.class))
+        if(isTouching(Portal.class))//when mario touches portal
         {
             setLocation(500, 550);//supposed to change positions for the portal
         }
@@ -59,7 +59,7 @@ public class Mario extends Actor
             score = score +1;
             
         }
-        if (isAtEdge())
+        if (isTouching(Black.class))//if mario touches the bottom black part he dies
            {
                //getWorld().removeObject(this);
                getWorld().showText("GAME OVER", 550, 300);
