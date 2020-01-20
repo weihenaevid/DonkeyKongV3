@@ -8,6 +8,12 @@ public class Mario extends Actor
     //int level = 0;
     int score = 0;
     
+   /* public Mario(){
+    GreenfootImage mario = getImage();
+        mario.scale(60,60);
+        setImage(mario);
+    }*/
+    
     public void score ()
     {
        /*if( score == 1 && isTouching(DK.class)){
@@ -33,9 +39,14 @@ public class Mario extends Actor
         setLocation( getX(), getY() + speed);
         getWorld().showText(Lives +"",1080, 27);
              
+        if(isTouching(Ladder.class) && Greenfoot.isKeyDown("c"))
+        {
+            //setImage("mariopixelCopy.png");
+            
+        }
         if(isTouching(Portal.class))
         {
-            setLocation(550, 600);//supposed to change positions for the portal
+            setLocation(500, 600);//supposed to change positions for the portal
         }
         if(isTouching(Barrel.class))
         {

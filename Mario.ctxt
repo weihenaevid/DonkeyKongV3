@@ -2,6 +2,7 @@
 comment0.target=Mario
 comment1.params=
 comment1.target=void\ score()
+comment1.text=\ public\ Mario(){\r\n\ \ \ \ GreenfootImage\ mario\ \=\ getImage();\r\n\ \ \ \ \ \ \ \ mario.scale(60,60);\r\n\ \ \ \ \ \ \ \ setImage(mario);\r\n}
 comment2.params=
 comment2.target=void\ act()
 numComments=3

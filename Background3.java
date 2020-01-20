@@ -14,7 +14,7 @@ public class Background3 extends World
      * 
      */
     public Background3()
-    {    
+    {   
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1100, 600, 1);
         
@@ -23,22 +23,23 @@ public class Background3 extends World
         addObject(new Floor(), 125, 139);
         addObject(new Floor(), 375, 139);
         addObject(new Floor(), 625, 139);
-        addObject(new Floor(), 875, 139);
+        addObject(new Floor(), 875, 139);//top floor
         
-        addObject(new Portal(), 900, 300);
+        addObject(new Portal(), 900, 300);//portal
       
-        addObject(new Floor(), 200, 450);
+        addObject(new Floor(), 200, 450);//the other 3 floors
         addObject(new Floor(), 80,300);
-        addObject(new Floor(), 550,600);
+        addObject(new Floor(), 500,600);
         
-        addObject(new Floor3(), 1050, 139);
-        addObject(new Ladder(), 230, 355);
-        addObject(new DonkeyKong(), 150, 250);
-        addObject(new coins(), 100,360);
-        addObject(new Mario(), 50, 90);
+        addObject(new Floor3(), 1050, 139);//plank that moves up and down
+     //   addObject(new Plank_up(), 1050, 300);
+        addObject(new Ladder(), 230, 355);//ladder
+        addObject(new DonkeyKong(), 150, 250);//dk
+        addObject(new coins(), 100,360);//coin
+        addObject(new Mario(), 50, 90);//mario
         
         
-        GreenfootImage lives = new GreenfootImage("heart.png");
+        GreenfootImage lives = new GreenfootImage("heart.png");//lives
         lives.scale(30,30);
         getBackground().drawImage(lives, 1045,13);
         showText("Level: 3", 880, 27); 
